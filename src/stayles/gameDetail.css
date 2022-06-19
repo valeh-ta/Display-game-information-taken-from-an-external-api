@@ -1,0 +1,91 @@
+
+
+.card_shadow {
+width: 100%;
+min-height: 100vh;
+overflow-y: scroll;
+background: rgba(0, 0, 0, 0.5);
+position: fixed;
+top: 0;
+left: 0;
+
+}
+.card_shadow::-webkit-scrollbar {
+    width: 0.7em;
+  }
+   
+  .card_shadow::-webkit-scrollbar-track {
+    box-shadow: inset 0 5px 6px rgb(247, 241, 241);
+    border-radius: 20px;
+  }
+   
+  .card_shadow::-webkit-scrollbar-thumb {
+    background-color: rgb(65, 15, 15);
+    outline: 1px solid rgb(0, 0, 0);
+    margin-right: 5px;
+  }
+  
+
+.detail {
+    width: 80%;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    padding: 2rem 2rem;
+    position: absolute;
+    left: 10%;
+    color: black;
+}
+
+
+.status {
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+
+.info {
+    text-align: center;
+}
+
+.Platforms {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.Platforms i {
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+
+
+
+.div_img {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img_game {
+  width: 70%;
+object-fit: cover;
+
+
+}
+
+.des {
+    margin: 5rem 0rem;
+    line-height: 2rem;
+    font-size: large;
+    
+}
+/*+++++++++++++++++++++++++++++++++++*/
+.rigth p  {
+  font-size: 1.2rem;
+}
+.rigth p  i{
+  background-color: rgb(65, 57, 57);
+  color: yellow;
+  border-radius: 5px;
+}

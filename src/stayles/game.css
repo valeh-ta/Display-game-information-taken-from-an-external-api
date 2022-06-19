@@ -1,0 +1,29 @@
+.game_img {
+  width: 100%;
+  height: 40vh;
+  display: block;
+  border-radius: 0  0 1rem 1rem;
+  object-fit: cover;
+  
+}
+
+.game {
+    min-height: 30vh;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 1rem;
+
+}
+
+.game h3 {
+  font-size: 1.3rem;
+  color: #333;
+  padding: 1.5rem;
+}
+
+.game p {
+  font-size: 1rem;
+  line-height: 200%;
+  color: #696969;
+
+}
